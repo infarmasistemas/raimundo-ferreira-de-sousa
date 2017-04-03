@@ -1,0 +1,28 @@
+﻿1. Usando Bancos de Dados (SQL Server)
+		Voce irá criar uma tabela e popular com dados, o script está pronto mas você terá que corrigir um pequeno erro
+OK
+	
+2. Usando a IDE do Delphi
+		Você precisa trabalhar em um projeto, mas antes precisa instalar uma biblioteca de componentes visuais
+OK
+
+3. Visualizando dados com Delphi
+		Agora você precisa desenvolver uma visualização dos dados criados no item 1, use sua criatividade para exibir as informações da tabela VENDAS
+
+OK		
+4. Criando um relatório com Delphi
+		Faça um relatório (listagem) dos dados da tabela VENDAS
+
+OK
+		
+5. Resolução de problemas com Delphi/SQL
+		Preciso comprar mercadorias para meu estoque, para isso preciso saber quanto tenho que comprar
+		Na tabela vendas está registrado a quantidade de produtos vendidos do produto ('NARIDRIN GTS AD 15 ML') em 30 dias,
+		e quero comprar apenas o suficiente para abastecer por 5 dias, baseado na média de vendas.
+		
+		A formula é a seguinte:
+		
+		Arredondar( ( Somar( VENDAS.Qtd_Produto ) / 30 ) * 5 ) =  TOTAL_PEDIDO
+
+ok
+		
